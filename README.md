@@ -3,23 +3,28 @@ It's A Test Project
 ----
 
 #  Prerequirments:
-PHP 7.2
-php7.2-gd
-php7.2-zip
-php7.2-mbstring
-php7.2-curl
 
-  - To install php7.2 and modules : `sudo apt-get install php7.2 php7.2-gd php7.2-zip php7.2-mbstring php7.2-curl`
+    PHP >= 7.1.3
+    OpenSSL PHP Extension
+    PDO PHP Extension
+    Mbstring PHP Extension
+    Tokenizer PHP Extension
+    XML PHP Extension
+    Ctype PHP Extension
+    JSON PHP Extension
+    BCMath PHP Extension
   
   
 composer
-  - To install composer go to https://getcomposer.org/download/
+  - To install composer go to https://getcomposer.org/doc/00-intro.md
 
 ----
 
 # Setup:
 
 - Install Dependencies and Libraries: `composer install`
+- `php artisan key:generate`
+- `php artisan cache:clear`
 - You can Upload any `shows.csv` file to: `storage/app/`
 
 ----
