@@ -23,6 +23,7 @@ composer
 # Setup:
 
 - Install Dependencies and Libraries: `composer install`
+- Prepare your destination computer as in http://laravel.com/docs/
 - `php artisan key:generate`
 - `php artisan cache:clear`
 - You can Upload any `shows.csv` file to: `storage/app/`
